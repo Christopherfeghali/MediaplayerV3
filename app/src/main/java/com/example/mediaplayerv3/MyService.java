@@ -46,7 +46,7 @@ public class MyService extends Service {
     }
 
 
-    public void startfile(String filePath_) //starts the selected file using filepath from getpath earlier
+    public void startfile(String filePath_) //start the selected file using filepath from getpath earlier
     {
         Path = filePath_;
         MP.stop();
